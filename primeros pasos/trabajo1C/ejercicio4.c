@@ -1,6 +1,17 @@
-#include <stdio.h>
+/*
+-Fecha de publicación: 11/08/2023
+-Hora: 11:30 PM
+-versión de su código: 1.0
+-Autor. Ing(c) Valeria Muñoz Ramirez
+- Nombre del lenguaje utilizado: C
+- Versión del lenguaje utilizado: C18
+- Presentado a: Doctor Ricardo Moreno Laverde
+- Universidad Tecnológica de Pereira
+- Programa de Ingeniería de Sistemas y Computación
+- este programa convierte Km/h a mph (millas por hora). 
+*/
 
-// convertir km/h a mph 
+#include <stdio.h>
 
 int main(){
     float kilometers, miles;

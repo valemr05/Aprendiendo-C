@@ -1,3 +1,17 @@
+/*
+- Fecha de publicación: 13/08/2023
+- Hora: 12:10 PM
+- versión de su código: 1.0
+- Autor. Ing(c) Valeria Muñoz Ramirez
+- Nombre del lenguaje utilizado: C
+- Versión del lenguaje utilizado: C18
+- Presentado a: Doctor Ricardo Moreno Laverde
+- Universidad Tecnológica de Pereira
+- Programa de Ingeniería de Sistemas y Computación
+- este programa recibe horas, minutos y segundos e imprime en pantalla el número
+  de milisegundos.
+*/
+
 #include <stdio.h>
 
 int main(){

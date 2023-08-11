@@ -1,6 +1,18 @@
+/*
+-Fecha de publicación: 11/08/2023
+-Hora: 11:40 PM
+-versión de su código: 1.0
+-Autor. Ing(c) Valeria Muñoz Ramirez
+- Nombre del lenguaje utilizado: C
+- Versión del lenguaje utilizado: C18
+- Presentado a: Doctor Ricardo Moreno Laverde
+- Universidad Tecnológica de Pereira
+- Programa de Ingeniería de Sistemas y Computación
+- este programa recibe una cantidad de horas y minutos e imprime el total en minutos.
+*/
+
 #include <stdio.h>
 
-//convertir horas y minutos a minutos}
 int main (){
     int hours, minutes, result;
     printf("Por favor digita la cantidad de horas: ");

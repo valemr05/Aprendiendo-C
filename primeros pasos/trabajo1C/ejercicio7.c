@@ -1,6 +1,17 @@
-#include <stdio.h>
+/*
+- Fecha de publicación: 11/08/2023
+- Hora: 11:50 PM
+- versión de su código: 1.0
+- Autor. Ing(c) Valeria Muñoz Ramirez
+- Nombre del lenguaje utilizado: C
+- Versión del lenguaje utilizado: C18
+- Presentado a: Doctor Ricardo Moreno Laverde
+- Universidad Tecnológica de Pereira
+- Programa de Ingeniería de Sistemas y Computación
+- este programa recibe como datos de entrada el nombre, apellido y año de nacimiento y luego los imprima juntos.
+*/
 
-//nombre, apellito y año de nacimiento.
+#include <stdio.h>
 
 int main() {
     char name[20];

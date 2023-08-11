@@ -1,26 +1,34 @@
+/*
+- Fecha de publicación: 11/08/2023
+- Hora: 12:00 PM
+- versión de su código: 1.0
+- Autor. Ing(c) Valeria Muñoz Ramirez
+- Nombre del lenguaje utilizado: C
+- Versión del lenguaje utilizado: C18
+- Presentado a: Doctor Ricardo Moreno Laverde
+- Universidad Tecnológica de Pereira
+- Programa de Ingeniería de Sistemas y Computación
+- este programa recibe como datos de entrada  2 números y realice las operaciones de suma, resta,
+  multiplicación y división e imprime los resultados de forma ordenada en pantalla.
+*/
+
 #include <stdio.h>
-
-//suma, resta, multiplicacion, division. 
+ 
 int main() {
-    int num1, num2;
-    int add, subm;
-    int mult, div;
-
+    float num1, num2, add, subm, mult, div;
     printf("Por favor digite el primer numero:");
-    scanf("%i", &num1);
-
+    scanf("%f", &num1);
     printf("Por favor digite el segundo numero:");
-    scanf("%i", &num2);
+    scanf("%f", &num2);
 
     add = num1 + num2;
     subm = num1 - num2;
     mult = num1 * num2;
     div = num1 / num2;
 
-    printf("Suma: %i\n", add);
-    printf("Resta: %i\n", subm);
-    printf("Multiplicacion: %i\n", mult);
-    printf("Division: %i\n", div);
-
+    printf("Suma: %f\n", add);
+    printf("Resta: %f\n", subm);
+    printf("Multiplicacion: %f\n", mult);
+    printf("Division: %f\n", div);
     return 0;
 }
