@@ -9,6 +9,10 @@
 - Universidad Tecnológica de Pereira
 - Programa de Ingeniería de Sistemas y Computación
 - este programa realiza la siguiente operación ( ( 17.0/11 ) + ( 23.0/2 ) ) / ( (943.0 / 120 ) + sqrt(144) ).
+
+
+-Salvedad: Para valores fuera de este rango, no garantizamos los
+resultados.
 */
 
 #include <stdio.h>

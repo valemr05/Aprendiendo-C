@@ -10,6 +10,14 @@
 - Programa de Ingeniería de Sistemas y Computación
 - este programa recibe horas, minutos y segundos e imprime en pantalla el número
   de milisegundos.
+
+  - hours: Almacenará la acantidad de horas ingresadas por el usuario. 
+  - minutes: Almacenará la acantidad de minutos ingresados por el usuario. 
+  - seconds: Almacenará la acantidad de segundos ingresados por el usuario. 
+  - milliseconds: Almacenará la cantidad del tiempo final en milisegundos. 
+
+-Salvedad: Para valores fuera de este rango, no garantizamos los
+resultados.
 */
 
 #include <stdio.h>

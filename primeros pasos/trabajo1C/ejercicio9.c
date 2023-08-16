@@ -10,6 +10,13 @@
 - Programa de Ingeniería de Sistemas y Computación
 - este programa encuentra el valor del ángulo faltante de un triángulo al recibir el valor de los otros dos
   ángulos, se debe tener en cuenta que los 3 ángulos de un triángulo suman 180 °.
+
+- cat1: ALmecena el valor del primer angulo del triangulo
+- cat2: ALmecena el valor del segundo angulo del triangulo
+- cat3: ALmecena el valor del angulo faltante del triangulo
+
+-Salvedad: Para valores fuera de este rango, no garantizamos los
+resultados.
 */
 
 #include <stdio.h>

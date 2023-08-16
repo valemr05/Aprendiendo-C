@@ -9,6 +9,13 @@
 - Universidad Tecnológica de Pereira
 - Programa de Ingeniería de Sistemas y Computación
 - este programa recibe como datos de entrada el nombre, apellido y año de nacimiento y luego los imprima juntos.
+
+- name: Almacenará el nombre ingresado por el usuario.
+- surname: Almacenará el apellido ingresado por el usuario.
+- year: Almacenará el año ingresado por el usuario.
+
+-Salvedad: Para valores fuera de este rango, no garantizamos los
+resultados.
 */
 
 #include <stdio.h>

@@ -9,6 +9,12 @@
 - Universidad Tecnológica de Pereira
 - Programa de Ingeniería de Sistemas y Computación
 - este programa convierte mph (millas por hora) a m/s.
+
+-miles: almacena la cantidad de millas ingresadas por el usuario. 
+-meters: almacenan el resultado final de convertir las millas a m/s.
+
+-Salvedad: Para valores fuera de este rango, no garantizamos los
+resultados.
 */
 
 #include <stdio.h>

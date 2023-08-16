@@ -10,6 +10,16 @@
 - Programa de Ingeniería de Sistemas y Computación
 - este programa recibe como datos de entrada  2 números y realice las operaciones de suma, resta,
   multiplicación y división e imprime los resultados de forma ordenada en pantalla.
+
+- num1: primer numero ingresado por el usuario. 
+- num2: segundo numero ingresado por el usuario. 
+- add: suma
+- subm: resta
+- mult: multiplicacion 
+- div: division 
+  
+-Salvedad: Para valores fuera de este rango, no garantizamos los
+resultados.
 */
 
 #include <stdio.h>

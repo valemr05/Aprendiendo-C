@@ -9,6 +9,12 @@
 - Universidad Tecnológica de Pereira
 - Programa de Ingeniería de Sistemas y Computación
 - este programa recibe una cantidad minutos e imprime el total en horas y minutos. 
+
+- minutes: Minutos ingresados por el usuario.
+- resulthours: cantidad de horas en total que hay en esos minutos ingresados
+- resultmin: cantidad de minutos que quedan luego de sacar las horas. 
+-Salvedad: Para valores fuera de este rango, no garantizamos los
+resultados.
 */
 
 #include <stdio.h>

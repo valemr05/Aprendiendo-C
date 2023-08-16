@@ -9,13 +9,19 @@
 - Universidad Tecnológica de Pereira
 - Programa de Ingeniería de Sistemas y Computación
 - este programa convierte Km/h a mph (millas por hora). 
+
+- kilometers: almacenará al cantidad de kilometros ingresada por el usuario. 
+- miles: almacerá el resultado de la operacion para hallar las millas. 
+
+-Salvedad: Para valores fuera de este rango, no garantizamos los
+resultados.
 */
 
 #include <stdio.h>
 
 int main(){
     float kilometers, miles;
-    printf ("por favor digite cuanto km/h desea convertir a mp/h: ");
+    printf ("por favor digite cuantos km/h desea convertir a mp/h: ");
     scanf ("%f", &kilometers);
     miles = kilometers * 0.621371;
     printf ("%f km/h equivalen a %f mp/h", kilometers, miles);

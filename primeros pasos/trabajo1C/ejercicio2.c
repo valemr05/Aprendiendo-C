@@ -9,6 +9,10 @@
 - Universidad Tecnológica de Pereira
 - Programa de Ingeniería de Sistemas y Computación
 - este programa recibe el radio de una esfera e imprime cual es su volumen. 
+
+- radio= Corresponde al radio de la esfera que ingresará el usuario.
+- volumen= corresponde al resultado de realizar la operacion para hallar el volumen. 
+- pi= corresponde al valor de pi.
 */
 
 #include <stdio.h>

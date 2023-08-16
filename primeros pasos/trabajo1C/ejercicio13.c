@@ -9,6 +9,11 @@
 - Universidad Tecnológica de Pereira
 - Programa de Ingeniería de Sistemas y Computación
 - este programa  recibe el valor de x y realiza la siguiente operación ( ( x * 1/2 ) + 25 ) / ( ( sqrt(169) / sqrt(144) ) + (sqrt(x)/x ) ).
+
+x: corresponde al numero ingresado por el usuario
+operation: resultado operacion final
+-Salvedad: Para valores fuera de este rango, no garantizamos los
+resultados.
 */
 
 #include <stdio.h>
@@ -19,5 +24,5 @@ int main(){
     printf("Ingresa el valor que le asignará a x:");
     scanf("%f", &x);
     operation = ( ( x * 1.0/2 ) + 25 ) / ( ( sqrt(169) / sqrt(144) ) + (sqrt(x)/x ) );
-    printf("%f", operation ) ;
+    printf(" el resultado para un valor de %f es de %f", x, operation ) ;
 }
